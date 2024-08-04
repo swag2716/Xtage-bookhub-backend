@@ -11,7 +11,6 @@ import requests
 import os
 
 GOOGLE_BOOKS_API_KEY = os.environ.get('GOOGLE_BOOKS_API_KEY')
-GOOGLE_BOOKS_API_KEY = "AIzaSyDhk1WGfJe8HOKgxd2RAqV6SVrLxfQFQOg"
 
 class CreateBookView(APIView):
     permission_classes = [IsAuthenticated]
